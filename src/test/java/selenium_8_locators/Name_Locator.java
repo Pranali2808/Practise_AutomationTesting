@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Name_Locator {
 	@Test
-	public static void login() throws InterruptedException {
+	public void login() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
@@ -21,7 +21,7 @@ public class Name_Locator {
 	}
 
 	@Test
-	public static void createAccount() throws InterruptedException {
+	public void createAccount() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

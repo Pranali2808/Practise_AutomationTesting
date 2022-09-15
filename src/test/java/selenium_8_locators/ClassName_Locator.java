@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 
 public class ClassName_Locator {
 	@Test
-	public static void login() throws InterruptedException {
+	public void login() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
-		WebElement email = driver.findElement(By.className("inputtext _55r1 _6luy"));
+		WebElement email = driver.findElement(By.className("inputtext _55r1 inputtext _1kbt _9ay4 inputtext _1kbt"));
 		email.sendKeys("8446151018");
 		Thread.sleep(3000);
 		WebElement pass = driver.findElement(By.className("inputtext _55r1 _6luy _9npi"));

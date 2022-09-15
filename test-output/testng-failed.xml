@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_8_locators.X_Path_Locator">
+      <class name="actioncalss.ContextClickMethod">
         <methods>
-          <include name="CreateAccount"/>
+          <include name="verifyContextClickusingActionsClass"/>
         </methods>
-      </class> <!-- selenium_8_locators.X_Path_Locator -->
+      </class> <!-- actioncalss.ContextClickMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

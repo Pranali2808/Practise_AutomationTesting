@@ -22,7 +22,7 @@ public class X_Path_Locator {
 	}
 
 	@Test
-	public static void CreateAccount() throws InterruptedException {
+	public void CreateAccount() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

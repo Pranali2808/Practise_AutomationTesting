@@ -21,7 +21,7 @@ public class Id_Locator {
 	}
 
 	@Test
-	public static void createAccount() throws InterruptedException {
+	public void createAccount() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

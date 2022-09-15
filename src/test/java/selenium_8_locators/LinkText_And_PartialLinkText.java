@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class LinkText_And_PartialLinkText {
 	@Test
-	public static void linkText_Locator() throws InterruptedException {
+	public void linkText_Locator() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
@@ -20,7 +20,7 @@ public class LinkText_And_PartialLinkText {
 		driver.close();
 	}
 	@Test
-	public static void partial_linkText_Locator() throws InterruptedException {
+	public void partial_linkText_Locator() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

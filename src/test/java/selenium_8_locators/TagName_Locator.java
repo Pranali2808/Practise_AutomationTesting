@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TagName_Locator {
 	@Test
-	public static void login() throws InterruptedException {
+	public void login() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

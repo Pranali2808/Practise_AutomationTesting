@@ -22,7 +22,7 @@ public class CssSelector_Locator {
 	}
 
 	@Test
-	public static void CreateAccount() throws InterruptedException {
+	public void CreateAccount() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
@@ -43,7 +43,7 @@ public class CssSelector_Locator {
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("select[id='year']")).sendKeys("1997");
 		Thread.sleep(2000);
-	    driver.findElements(By.cssSelector("label[for='u_2c_4_Dl']")).get(0).click();
+	    driver.findElements(By.name("sex")).get(0).click();
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("button[name='websubmit']")).click();
 		Thread.sleep(2000);
