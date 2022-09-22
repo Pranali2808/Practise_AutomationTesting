@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T14:49:54 IST" name="Default suite" finished-at="2022-09-15T14:50:09 IST" duration-ms="15135">
+  <suite started-at="2022-09-22T10:40:47 IST" name="Default suite" finished-at="2022-09-22T10:40:52 IST" duration-ms="4979">
     <groups>
     </groups>
-    <test started-at="2022-09-15T14:49:54 IST" name="Default test" finished-at="2022-09-15T14:50:09 IST" duration-ms="15135">
-      <class name="actioncalss.ContextClickMethod">
-        <test-method signature="verifyContextClickusingActionsClass()[pri:0, instance:actioncalss.ContextClickMethod@293a5bf6]" started-at="2022-09-15T14:49:54 IST" name="verifyContextClickusingActionsClass" finished-at="2022-09-15T14:50:09 IST" duration-ms="15100" status="PASS">
+    <test started-at="2022-09-22T10:40:47 IST" name="Default test" finished-at="2022-09-22T10:40:52 IST" duration-ms="4979">
+      <class name="webtable.WebtableExample">
+        <test-method signature="webtable()[pri:0, instance:webtable.WebtableExample@42a48628]" started-at="2022-09-22T10:40:47 IST" name="webtable" finished-at="2022-09-22T10:40:52 IST" duration-ms="4936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContextClickusingActionsClass -->
-      </class> <!-- actioncalss.ContextClickMethod -->
+        </test-method> <!-- webtable -->
+      </class> <!-- webtable.WebtableExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

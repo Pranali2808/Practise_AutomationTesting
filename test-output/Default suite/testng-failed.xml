@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actioncalss.ContextClickMethod">
+      <class name="handlingpopups.FileUploadPopup">
         <methods>
-          <include name="verifyContextClickusingActionsClass"/>
+          <include name="verifyFileUploadPopup"/>
         </methods>
-      </class> <!-- actioncalss.ContextClickMethod -->
+      </class> <!-- handlingpopups.FileUploadPopup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

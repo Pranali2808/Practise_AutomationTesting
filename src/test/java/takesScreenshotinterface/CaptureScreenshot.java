@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class CaptureScreenshot {
 	@Test
-	public static void take_Screenshot() throws InterruptedException, IOException {
+	public void take_Screenshot() throws InterruptedException, IOException {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

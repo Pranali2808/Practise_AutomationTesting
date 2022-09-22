@@ -17,6 +17,8 @@ public class TextInDisabledTextBox {
 		Thread.sleep(2000);
 		js.executeScript("document.getElementById('t2').value=''");
 		js.executeScript("document.getElementById('t2').value='manager'");
+		Thread.sleep(2000);
+
 		js.executeScript("document.getElementById('t2').type='button'");
 		driver.close();
 	}
