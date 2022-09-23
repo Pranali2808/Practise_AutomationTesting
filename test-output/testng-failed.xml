@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handlingpopups.FileUploadPopup">
+      <class name="selectclass.Autosuggestionlistbox">
         <methods>
-          <include name="verifyFileUploadPopup"/>
+          <include name="autosuggestionlistbox"/>
         </methods>
-      </class> <!-- handlingpopups.FileUploadPopup -->
+      </class> <!-- selectclass.Autosuggestionlistbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

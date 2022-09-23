@@ -29,7 +29,7 @@ public class DownloadFilePopup {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[contains(text(),'Choose PDF file')]")).click();
 		Thread.sleep(3000);
-		Runtime.getRuntime().exec("C:\\Selenium\\example.exe");
+		Runtime.getRuntime().exec("D:\\Autoit\\autoitexample.exe");
 		Thread.sleep(3000);
 		driver.close();
 	}
