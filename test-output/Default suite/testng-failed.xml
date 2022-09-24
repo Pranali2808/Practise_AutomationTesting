@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selectclass.Autosuggestionlistbox">
+      <class name="testng.DependsOnMethodsAttribute">
         <methods>
-          <include name="autosuggestionlistbox"/>
+          <include name="deleteUser"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- selectclass.Autosuggestionlistbox -->
+      </class> <!-- testng.DependsOnMethodsAttribute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
